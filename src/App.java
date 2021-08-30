@@ -109,14 +109,15 @@ public class App {
                 contador++;
 }
 
-        System.out.println("");
-        System.out.println("Exemplo 8 - Uso da Estrutura 'do while'");
+            System.out.println("");
+            System.out.println("Exemplo 8 - Uso da Estrutura 'do while'");
             char novoJogo; 
             do {
             System.out.println("Deseja Jogar Novamente (s/n)?");
             novoJogo = 'n';
 }           while (novoJogo == 's');
         System.out.println("GAME OVER");
+
         
 }
 }
